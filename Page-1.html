@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Agaamin - Payment Page-1</title>
+    <link rel="stylesheet" href="page1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!-- Added SweetAlert -->
+</head>
+<body>
+    <div class="login-form">
+        <div class="form-tittle">
+            Enter your payment details
+        </div>
+        <div class="form-input">
+            <label for="username">Enter your Smartname</label>
+            <input type="text" id="username" placeholder="Enter your Smartname Here!!" required>
+        </div>
+
+        <div class="captcha">
+            <label for="captcha-input">Enter Captcha</label>
+            <div class="preview"></div>
+            <div class="captcha-form">
+                <input type="text" id="captcha-input" class="input" placeholder="Enter Captcha text" required>
+                <button class="captcha-refresh">
+                    <i class="fa fa-refresh"></i>
+                </button>
+            </div>
+        </div>
+        <div class="form-input">
+            <button id="login-btn">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
